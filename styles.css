@@ -1347,9 +1347,9 @@ section {
     
     .concept-text {
         width: 100%;
-        max-width: 90%;
+        max-width: 95%;
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 0 15px;
         background: none;
         border-radius: 0;
         box-shadow: none;
@@ -1432,9 +1432,9 @@ section {
     
     .about-text {
         width: 100%;
-        max-width: 90%;
+        max-width: 95%;
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 0 15px;
     }
 
     .about-text h3 {
@@ -1460,9 +1460,9 @@ section {
 
     .about-greeting {
         width: 100%;
-        max-width: 90%;
+        max-width: 95%;
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 0 15px;
     }
     
     .about-greeting p {
