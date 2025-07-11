@@ -131,7 +131,7 @@ body {
 .hamburger span {
     width: 24px;
     height: 2px;
-    background-color: var(--color-text);
+    background-color: #000000;
     transition: all 0.3s ease;
 }
 
@@ -1338,15 +1338,16 @@ section {
     }
 
     .concept-text p {
-        font-size: 0.85rem;
-        line-height: 1.7;
-        margin-bottom: 12px;
+        font-size: 0.75rem;
+        line-height: 1.8;
+        margin-bottom: 10px;
         word-break: auto;
         overflow-wrap: break-word;
         width: 100%;
         max-width: 100%;
         padding: 0;
         text-align: left;
+        letter-spacing: 0.02em;
     }
 
     .concept-text p:last-child {
@@ -1406,14 +1407,14 @@ section {
     }
 
     .about-text h3 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-bottom: 8px;
         word-break: keep-all;
     }
 
     .about-role {
-        font-size: 0.9rem;
-        margin-bottom: 20px;
+        font-size: 0.8rem;
+        margin-bottom: 15px;
         word-break: keep-all;
     }
 
@@ -1424,15 +1425,16 @@ section {
     }
     
     .about-greeting p {
-        font-size: 0.85rem;
-        line-height: 1.7;
-        margin-bottom: 15px;
+        font-size: 0.75rem;
+        line-height: 1.8;
+        margin-bottom: 12px;
         word-break: auto;
         overflow-wrap: break-word;
         width: 100%;
         max-width: 100%;
         padding: 0;
         text-align: left;
+        letter-spacing: 0.02em;
     }
 
     .about-image img {
