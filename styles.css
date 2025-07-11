@@ -1347,18 +1347,18 @@ section {
     
     .concept-text {
         width: 100%;
-        max-width: 90%;
+        max-width: 85%;
         margin: 0 auto;
-        padding: 0 25px;
+        padding: 0 20px;
         background: none;
         border-radius: 0;
         box-shadow: none;
     }
 
     .concept-text p {
-        font-size: 1.1rem;
-        line-height: 1.8;
-        margin-bottom: 24px;
+        font-size: 0.95rem;
+        line-height: 1.7;
+        margin-bottom: 20px;
         word-break: auto;
         overflow-wrap: break-word;
         width: 100%;
@@ -1434,11 +1434,11 @@ section {
         width: 100%;
         max-width: 85%;
         margin: 0 auto;
-        padding: 0;
+        padding: 0 15px;
     }
 
     .about-text h3 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         margin-bottom: 12px;
         word-break: keep-all;
         font-weight: 400;
@@ -1447,12 +1447,12 @@ section {
     }
 
     .about-role {
-        font-size: 1.1rem;
-        margin-bottom: 35px;
+        font-size: 1rem;
+        margin-bottom: 30px;
         word-break: keep-all;
         color: var(--color-deep-gold);
         font-weight: 400;
-        line-height: 1.7;
+        line-height: 1.6;
         font-family: 'Noto Sans JP', sans-serif;
     }
 
@@ -1460,13 +1460,13 @@ section {
         width: 100%;
         max-width: 85%;
         margin: 0 auto;
-        padding: 0;
+        padding: 0 15px;
     }
     
     .about-greeting p {
-        font-size: 1.1rem;
-        line-height: 1.8;
-        margin-bottom: 24px;
+        font-size: 0.95rem;
+        line-height: 1.7;
+        margin-bottom: 20px;
         word-break: auto;
         overflow-wrap: break-word;
         width: 100%;
