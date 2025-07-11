@@ -1320,16 +1320,25 @@ section {
         grid-template-columns: 1fr;
         gap: 30px;
         padding: 20px;
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .concept-text {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
     }
 
     .concept-text p {
         font-size: 0.85rem;
-        line-height: 1.5;
+        line-height: 1.6;
         margin-bottom: 12px;
-        word-break: keep-all;
+        word-break: normal;
         overflow-wrap: break-word;
         width: 100%;
         max-width: 100%;
+        padding: 0 5px;
     }
 
     .concept-text p:last-child {
@@ -1377,7 +1386,15 @@ section {
         grid-template-columns: 1fr;
         gap: 25px;
         text-align: center;
-        padding: 25px 20px;
+        padding: 25px 15px;
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .about-text {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
     }
 
     .about-text h3 {
@@ -1392,11 +1409,17 @@ section {
         word-break: keep-all;
     }
 
+    .about-greeting {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 5px;
+    }
+    
     .about-greeting p {
         font-size: 0.85rem;
-        line-height: 1.5;
+        line-height: 1.6;
         margin-bottom: 15px;
-        word-break: keep-all;
+        word-break: normal;
         overflow-wrap: break-word;
         width: 100%;
         max-width: 100%;
@@ -1882,16 +1905,16 @@ section {
     width: 120px;
 }
 
-/* プロジェクトカードのアニメーション */
+/* プロジェクトカードのアニメーション - 無効化 */
 .reveal-project {
     opacity: 1;
-    transform: translateY(0) rotateX(0deg);
-    transition: all 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transform: none;
+    transition: none;
 }
 
 .reveal-project.active {
     opacity: 1;
-    transform: translateY(0) rotateX(0deg);
+    transform: none;
 }
 
 /* モバイル版でのみプロジェクトアニメーション有効 */
@@ -1924,13 +1947,13 @@ section {
     }
     
     .reveal-project {
-        opacity: 0;
-        transform: translateY(80px) rotateX(15deg);
+        opacity: 1;
+        transform: none;
     }
     
     .reveal-project.active {
         opacity: 1;
-        transform: translateY(0) rotateX(0deg);
+        transform: none;
     }
 }
 
